@@ -5,7 +5,7 @@ pypasser
 names
 colorama
 curl_cffi
-streamlit==1.21.0
+streamlit
 selenium
 fake-useragent
 twocaptcha
@@ -16,3 +16,6 @@ Levenshtein
 retrying
 mailgw_temporary_email
 pycryptodome
+random-password-generator
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.2 # not directly required, pinned by Snyk to avoid a vulnerability
